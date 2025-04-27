@@ -1,9 +1,4 @@
-
-body {
-  padding-top: 80px;
-}
-
 .img-square {
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
 }
