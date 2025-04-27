@@ -8,40 +8,24 @@ body {
   margin-bottom: 70px;
 }
 
-/* 大標題背景 */
-header.bg-danger {
-  background-color: #e74c3c;
-  color: white;
-}
-
-header .display-4 {
-  font-size: 3.5rem;
-}
-
-header .lead {
-  font-size: 1.25rem;
-}
-
-/* 圖片比例統一 */
+/* 讓所有需要的圖片統一顯示為正方形 */
 .img-square {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   width: 100%;
   height: auto;
 }
 
-/* 內容區塊 */
+/* 額外美化卡片圖片在卡片內的呈現 */
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* 平滑滾動、區塊位置調整 */
+body {
+  scroll-behavior: smooth;
+}
 section {
-  padding: 40px 0;
-}
-
-section.bg-light {
-  background-color: #f8f9fa;
-}
-
-/* 旅遊提醒 */
-section.bg-light h4 {
-  font-size: 1.75rem;
-  font-weight: bold;
-}
-section.bg-light p {
-  font-size: 1rem;
+  scroll-margin-top: 80px;
 }
