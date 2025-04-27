@@ -1,22 +1,9 @@
-/* 讓所有需要的圖片統一顯示為正方形 */
+
+body {
+  padding-top: 80px;
+}
+
 .img-square {
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-  }
-  
-  /* 額外美化卡片圖片在卡片內的呈現 */
-  .card-img-top {
-    height: 300px;
-    object-fit: cover;
-  }
-  
-  /* 平滑滾動、區塊位置調整 */
-  body {
-    scroll-behavior: smooth;
-  }
-  section {
-    scroll-margin-top: 80px;
-  }
-  
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
