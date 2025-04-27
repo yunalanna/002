@@ -1,4 +1,47 @@
+/* 預設樣式 */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* 導覽列 */
+.navbar {
+  margin-bottom: 70px;
+}
+
+/* 大標題背景 */
+header.bg-danger {
+  background-color: #e74c3c;
+  color: white;
+}
+
+header .display-4 {
+  font-size: 3.5rem;
+}
+
+header .lead {
+  font-size: 1.25rem;
+}
+
+/* 圖片比例統一 */
 .img-square {
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* 內容區塊 */
+section {
+  padding: 40px 0;
+}
+
+section.bg-light {
+  background-color: #f8f9fa;
+}
+
+/* 旅遊提醒 */
+section.bg-light h4 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+section.bg-light p {
+  font-size: 1rem;
 }
